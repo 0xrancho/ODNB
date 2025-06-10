@@ -1,0 +1,24 @@
+# Big Loud Shirt App (Retail / DTC Demo)
+
+This folder contains the front end for **Big Loud Shirt** — a flashy, simplified version of ODNB designed for DTC and multi-location retail businesses. It’s built for sales demo environments where the user has no data science or BI training.
+
+Inspired by:
+- Real-world retail use cases from segmentation tools like Elastic/OpenInsights
+- The desire to wrap ML insights in an approachable, seller-focused UI
+
+---
+
+## Key Features
+
+- Interactive **Context Page**: Goal → Tactic → Data Source = Generate Query
+- Visual **Insights Page**: Sunburst, Buyer Intent sliders, segment download
+- Generates instant campaign kits using GPT prompt stacks
+- Designed to run on preloaded retail-style CSVs
+
+---
+
+## Status
+
+- Uses placeholder data from `/data/sample_customers/`
+- Connected to shared prompt stacks in `/engine/prompts/`
+- Ideal for onboarding or sales demo use without backend access
