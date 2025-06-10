@@ -1,0 +1,20 @@
+# ODNB App (SMB Services Version)
+
+This folder contains the front end logic and demo configuration for the original ODNB interface — built to serve SMB service businesses like HVAC, plumbing, pest control, etc.
+
+It is designed to:
+- Allow users to select a **Goal** (Winback, Expand, Advocate)
+- Choose a **Tactic** tied to that goal
+- Upload a customer dataset or use preloaded CSVs
+- Receive a campaign-ready **Output Card** for a selected segment
+
+This version uses minimal customer data, relies on GPT prompt stacking instead of ML, and assumes no formal CS tooling or CRM in the business.
+
+---
+
+## Usage Status
+
+- UI built in Lovable
+- Data must match metadata expectations (defined in `/data/schema_definitions/`)
+- Generates prompt-driven segments and outreach kits per tactic
+
