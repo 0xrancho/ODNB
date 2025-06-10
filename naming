@@ -1,0 +1,37 @@
+# Naming Conventions & Terminology
+
+This document tracks decisions about names and terms used throughout ODNB and Big Loud Shirt.
+
+---
+
+## Core Entities
+
+- **Goal**: High-level strategic outcome (Winback, Expand, Advocate)
+- **Tactic**: Actionable GTM play nested under each goal (e.g., Reactivation, Tier Upgrade)
+- **Segment**: A group of customers generated via rules or scoring heuristics
+- **Campaign**: Suggested outreach linked to a tactic and segment
+- **Playbook**: Strategic doc per goal/tactic combo
+
+---
+
+## Prompt Tags
+
+- `{{goal}}` – passed into strategy prompts
+- `{{tactic}}` – used to trigger prompt stack
+- `{{industry}}` – modifies tone/language
+- `{{meta.[field_name]}}` – placeholder for inferred fields (e.g., meta.CSAT, meta.PlanTier)
+
+---
+
+## UX Labels
+
+- “Generate Insights” – CTA on Context page
+- “Download Segment” – CTA on Insights page
+- “Buyer Intent” – Slider + star chart term (non-ML)
+
+---
+
+## Product Branding
+
+- **ODNB**: SMB-focused version, service businesses
+- **Big Loud Shirt**: Retail demo tool, flashy branding for non-technical users
