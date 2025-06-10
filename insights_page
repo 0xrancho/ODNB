@@ -1,0 +1,59 @@
+# Insights Page – Big Loud Shirt / ODNB
+
+This page is generated only after the user selects all inputs on the Context page:
+- Goal
+- Tactic
+- Data Source
+
+---
+
+## Layout
+
+### Header
+- Logo (Big Loud Shirt or ODNB)
+- “Insights” page title
+- Back to Context link
+
+### Left Panel: Segment Visualization
+- 🎞 **Sunburst Chart**
+  - Displays segments organized by goal/tactic logic
+  - Filters dynamically based on:
+    - GPT_BIN Slider
+    - Buyer Intent Star Graph
+    - Product/Service Category
+    - Store/Region
+  - Click to select a segment
+
+### Right Panel: Output Card
+Displays once a segment is selected.
+
+- **Overview**
+  - Record count
+  - Industry summary
+  - Available metadata
+  - Recommended improvements (if any)
+
+- **Strategy**
+  - Segment description
+  - Suggested offer and CTA
+  - Channel recommendations
+
+- **Data**
+  - Buyer Intent Slider
+  - Star Graph
+  - Ability to filter within segment
+
+- **Segment**
+  - Estimated reach
+  - ROI estimate
+  - Persona summary
+  - Outreach method
+  - Sample campaign message
+  - 📥 **Download Segment** button
+
+---
+
+## Notes
+
+- Card output is generated via GPT prompt stack using segment traits + tactic rules
+- Sliders and filters act as soft parameters into the prompt stack
