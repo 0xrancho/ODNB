@@ -1,0 +1,44 @@
+# GTM Strategy Playbooks
+
+This folder houses the strategic playbooks that power each segment’s GTM output.
+
+Each playbook maps to a:
+- **Goal** → Winback, Expand, Advocate
+- **Tactic** → Specific campaign type
+- **Industry (optional)** → Tailored output, tone, or offers
+
+These are the source of truth for:
+- How to interpret each segment
+- What offers/channels work best
+- How to generate campaign messaging
+- What buyer personas respond to
+
+---
+
+## Playbook File Format
+
+Use one Markdown or YAML file per tactic:
+- `winback_reactivation_playbook.md`
+- `expand_upsell_playbook.md`
+- `advocate_referral_playbook.md`
+
+Each file should include:
+
+1. 🎯 **Tactic Overview**
+2. 🔍 **Ideal Segment Traits**
+3. 🎁 **Offer Types That Convert**
+4. 📢 **Recommended Channels**
+5. 🧍‍♂️ **Persona & Messaging Guidance**
+6. 🔁 **Timing / Follow-up Recommendations**
+7. 📥 **Required Meta Fields**
+8. 🧠 **Prompt Tips or Overrides**
+
+---
+
+## Future Structure
+
+Eventually, these will map to:
+- Output card generation
+- Prompt routing
+- Success taxonomy indexing
+
