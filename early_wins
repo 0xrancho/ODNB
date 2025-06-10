@@ -1,0 +1,35 @@
+# Early Wins & MVP Highlights
+
+This doc tracks quick wins, wow moments, or unexpectedly valuable features that emerged early in ODNB or Big Loud Shirt usage.
+
+---
+
+## ⚡ MVP Successes
+
+- **Segment Output Cards**
+  - Clients love the ready-made outreach recommendations
+  - Showcases value immediately without requiring ML
+
+- **Goal → Tactic → Segment UX**
+  - Intuitive funnel that guides even non-technical users
+  - Easier to explain than traditional BI or CRM tools
+
+- **Buyer Intent Star Chart**
+  - Feels predictive even though it’s rules-based
+  - Clients engage with it as if it’s “scored by AI”
+
+- **Preloaded Sample Data**
+  - Speeds up demos significantly
+  - Avoids friction of uploading real data too early
+
+- **Branded Experience (Big Loud Shirt)**
+  - Non-corporate design lands well with mid-market
+  - Fun name lowers perceived learning curve
+
+---
+
+## 🎯 Future Leverage Points
+
+- Add an “Acquisition” goal for top-of-funnel lookalikes
+- Let users clone or edit segments for campaign testing
+- Auto-recommend missing data fields from schema mismatch
