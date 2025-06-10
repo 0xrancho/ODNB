@@ -1,0 +1,23 @@
+# Lovable Flow Configuration
+
+pages:
+  - id: context_page
+    title: "Context"
+    inputs:
+      - goal
+      - tactic
+      - industry
+      - data_source
+    next_page: insights_page
+    required: true
+
+  - id: insights_page
+    title: "Insights"
+    input_context:
+      from: context_page
+    components:
+      - sunburst_segment_viewer
+      - gpt_bin_slider
+      - buyer_intent_star_chart
+      - output_card
+    requires_selection: true
