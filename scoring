@@ -1,0 +1,41 @@
+# Heuristic Scoring Logic
+
+This folder defines simple, rule-based scoring models for segment attributes such as:
+
+- **Buyer Intent**
+- **Churn Risk**
+- **Engagement Recency**
+- **Upsell Readiness**
+
+These scores are inferred from CSV metadata and passed into prompt stacks as variables or filters. This avoids true ML models while preserving the appearance and function of predictive targeting.
+
+---
+
+## Example: Buyer Intent Score
+
+**Scale:** 0–10  
+**Tiers:** Low (0–3), Mid (4–6), High (7–10)
+
+**Possible scoring inputs:**
+- Days since last purchase or service
+- Plan tier or subscription type
+- Recent CSAT scores
+- Lifetime Value
+- Loyalty / referral history
+- Response to past campaigns (if available)
+
+---
+
+## Usage
+
+Each file in this folder defines:
+- Input metadata required
+- Scoring rules and weightings
+- Output variable name(s)
+- Segment tier thresholds
+
+Examples:
+- `buyer_intent_score.yaml`
+- `churn_risk_score.md`
+- `engagement_score.md`
+
