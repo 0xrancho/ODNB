@@ -1,0 +1,25 @@
+
+# Segments Logic
+
+This folder contains logic for generating customer segments based on industry, goal, and tactic.
+
+Unlike traditional ML models, ODNB and Big Loud Shirt use **declarative, rule-based slicing** via GPT prompt stacks. These heuristics are based on:
+- Metadata in uploaded customer files (e.g., Service Date, CSAT, Plan Type)
+- Goal → Tactic combinations
+- Inferred or uploaded business context
+
+Each file here defines:
+- Required metadata
+- Segment slicing logic
+- Intent scoring rules (if applicable)
+- Segment naming or personas
+
+---
+
+## File Format Suggestions
+
+- `winback_reactivation.md`
+- `expand_premium_upgrade.md`
+- `advocate_review_request.md`
+
+Each file can describe how segments are derived, with embedded examples of input/output.
