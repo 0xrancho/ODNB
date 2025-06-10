@@ -1,0 +1,54 @@
+# Context Page – ODNB / Big Loud Shirt
+
+This is the first page in the user flow. The user must complete all four inputs before proceeding to the Insights page.
+
+---
+
+## Layout
+
+### Header
+- Logo (Big Loud Shirt or ODNB)
+- “Context” title
+- Short description of purpose: “Tell us your objective, and we’ll turn your customer data into strategy.”
+
+---
+
+## Step-by-Step Inputs
+
+1. **Goal**
+   - Dropdown menu
+   - Options: Winback, Expand, Advocate
+   - Triggers filtering of Tactic list
+
+2. **Tactic**
+   - Dependent dropdown based on Goal
+   - Examples:
+     - Winback → Reactivation, Lapsed Loyalists
+     - Expand → Tier Upgrade, Bundle Add-On
+     - Advocate → Review Ask, Referral Program
+
+3. **Industry**
+   - Dropdown menu (or radio group)
+   - Options: Franchise Home Services, Local Services, etc.
+   - May adjust tone/style of downstream output
+
+4. **Data Source**
+   - File upload (CSV)
+   - OR preloaded dataset selector (e.g., “Use Sample Data” toggle)
+   - Validation: must match expected schema (see `/data/schema_definitions`)
+
+---
+
+## CTA
+
+- 🔘 **Generate Insights** button
+  - Disabled until all 4 inputs are complete
+  - Once clicked, routes to `/insights_page`
+  - Sends user context to back-end for segment generation
+
+---
+
+## Notes
+
+- Fields are required — no “skip” allowed
+- Can add help tooltips or descriptions per dropdown
