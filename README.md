@@ -43,11 +43,3 @@ Originally designed to support private equity-owned service businesses and sales
 - Strategic operators and family offices trying to unlock revenue with minimal overhead
 
 ---
-
-## 🧭 Next Up
-
-1. Build out segment playbooks per tactic
-2. Expand Buyer Intent logic
-3. Finalize Lovable output templates
-
-# ODNB
