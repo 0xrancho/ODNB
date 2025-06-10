@@ -1,0 +1,35 @@
+# Prompt Stack Definitions
+
+This folder contains all modular, reusable GPT prompt logic used to generate insights, segments, and campaigns.
+
+Prompts here are organized around:
+- **Goals** → Winback, Expand, Advocate
+- **Tactics** → Specific plays (e.g., Reactivation, Premium Upsell)
+- **Industry context** → Optional modifiers for language or tone
+
+---
+
+## Suggested File Format
+
+Use Markdown or YAML for each prompt module:
+- `winback_reactivation_prompt.md`
+- `expand_bundle_upsell_prompt.md`
+- `advocate_review_request_prompt.md`
+
+Each file should contain:
+1. 🧠 **System prompt / assistant instructions**
+2. 🧾 **Input expectations** (meta fields, inferred insights)
+3. 🎯 **Generation steps** (segment rules, buyer intent scoring)
+4. ✍️ **Sample response format**
+5. 🛑 **Constraints or fallback logic**
+
+---
+
+## Shared Prompt Assets
+
+You may also add:
+- Common formatting rules
+- Tone/style guides
+- Channel copy best practices
+- Role-based output modifiers (e.g., SDR vs Director)
+
